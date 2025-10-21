@@ -1,0 +1,1 @@
+docker build -t homework1 -f DOCKERFILE .

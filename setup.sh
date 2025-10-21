@@ -1,0 +1,1 @@
+docker run --gpus all -it --rm  -w /workspace --name deep_learning_hw1_run homework1 bash
