@@ -5,7 +5,7 @@ import os
 
 # 載入模型
 try:
-    model = tf.keras.models.load_model('.model/mnist_model.h5')
+    model = tf.keras.models.load_model('.model/mnist_model.h5', compile=False)
 except (IOError, ImportError) as e:
     print("錯誤：無法載入模型。請先執行 2_trainModel.py 進行訓練。")
     print(e)

@@ -1,1 +1,2 @@
-docker run --gpus all -it --rm  -w /workspace --name deep_learning_hw1_run homework1 bash
+git clone https://github.com/Grasonyang/deep_learning.git
+bash setup.sh
